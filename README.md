@@ -3,7 +3,7 @@
 >Desafio técnico de automação web, com testes e2e
 
 <p align="center">
-  <img src="public/fleury-report.png" width="200">
+  <img src="public/fleury-report.png" width="600">
 </p>
 
 ---
