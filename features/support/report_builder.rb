@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 require 'report_builder'
 
 time = Time.now.getutc
@@ -11,13 +9,14 @@ ReportBuilder.configure do |config|
   config.report_path = 'reports/fleury-automation-report'
   config.report_types = [:html]
   config.report_title = 'fleury'
-  config.color = 'blue'
+  config.color = 'pink'
   config.additional_css = 'features\support\css_report_builder.css'
   config.additional_info = {
     Browser: 'Chrome',
-    'Projeto' => 'Fleury',
-    'Versão' => 'Desktop',
-    'Ambiente' => 'PROD',
-    'Data do report' => "#{time.strftime('%d/%m/%Y')} - #{time.strftime('%k:%M')}"
+    'Project' => 'Fleury',
+    'Version' => 'Desktop',
+    'Environment' => 'PROD',
+    'Automation Engineer' => 'Emanuele A. Marques',
+    'Report date' => "#{time.strftime('%d/%m/%Y')} - #{time.strftime('%k:%M')}"
   }
 end

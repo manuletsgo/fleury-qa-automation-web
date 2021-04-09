@@ -80,7 +80,7 @@ After do |scenario|
 end
 
 at_exit do
-  # ReportBuilder.build_report
+  ReportBuilder.build_report
 end
 
 def clear_reports

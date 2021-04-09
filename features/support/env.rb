@@ -44,6 +44,7 @@ Capybara.register_driver :chrome do |app|
       --acceptInsecureCerts=true
       --disable-impl-side-painting
       --debug_level=3
+      --log-level=3
     ]
   )
   client = Selenium::WebDriver::Remote::Http::Default.new

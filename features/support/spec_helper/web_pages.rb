@@ -5,15 +5,17 @@ module Web
   module Pages
     class WebPages
       class << self
-
         def home
           Web::Pages::Home::Home.new
         end
 
-        def unidades
-          Web::Pages::Unidades::Unidades.new
+        def category
+          Web::Pages::Categories::Category.new
         end
 
+        def unit
+          Web::Pages::Units::Unit.new
+        end
       end
     end
   end

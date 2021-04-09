@@ -3,13 +3,13 @@ module Web
     module Headers
       class MainHeader < SitePrism::Section
 
-        elements :categorias, '.unidades'
+        elements :categories, '.unidades'
 
         def acessar_categoria(c)
           clicadas=0
-          categorias.each do |cat|
+          categories.each do |cat|
             if (cat.text.match(/#{c}/i))
-              cat.click
+              cat.gclick
               clicadas+=1
               break
             end

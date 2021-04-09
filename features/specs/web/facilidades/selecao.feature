@@ -2,10 +2,10 @@
 
 Funcionalidade: Seleção
 
-    @selecionar_funcionalidades
-    Cenário: Selecionar facilidades
-      Dado que tenha acessado a categoria "Unidades" e esteja na página "Unidades"
-      Quando acessar o filtro de facilidades
-      E selecionar "Acessilibidade", "Vacinação", "Unidades em shoppings"
-      E acessar o primeiro resultado da busca
-      Então deverá ser exibida a página da unidade escolhida
+  @selecionar_facilidades
+  Cenário: Selecionar facilidades
+    Dado que tenha acessado a categoria "Unidades" e esteja na página
+    Quando acessar o filtro de facilidades
+    E selecionar facilidades "Bicicletário e vaga verde,Atendimento aos domingos"
+    E acessar o primeiro resultado da busca
+    Então deverá ser exibida a página da unidade escolhida

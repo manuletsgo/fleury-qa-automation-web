@@ -79,6 +79,7 @@ GEM
     equalizer (0.0.11)
     faker (2.17.0)
       i18n (>= 1.6, < 2)
+    ffi (1.15.0-x64-mingw32)
     gherkin (5.1.0)
     haml (5.2.1)
       temple (>= 0.8.0)
@@ -166,7 +167,6 @@ GEM
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
-    string-scrub (0.0.5)
     temple (0.8.2)
     thor (1.1.0)
     thread_safe (0.3.6)
@@ -186,9 +186,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  ffi
   fleury!
   pry
-  string-scrub
 
 BUNDLED WITH
    2.1.4

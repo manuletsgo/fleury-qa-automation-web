@@ -1,12 +1,11 @@
-#encoding: UTF-8
-Quando("acessar a categoria {string}") do |categoria|
+Quando("acessar a categoria {string}") do |category|
   step 'que esteja na home'
   @main_header = @home.main_header
-  @main_header.acessar_categoria(categoria)
-  @unidades = $web_pages.unidades
-  step "deverá ser exibida a página da categoria '#{categoria}'"
+  @main_header.acessar_categoria(category)
+  @category = $web_pages.category
 end
 
-Então("deverá ser exibida a página da categoria {string}") do |categoria|
-  expect(@unidades.span_unidades.text).to eql categoria
+Então("deverá ser exibida a página da categoria {string}") do |category|
+  @category.span_unidades.greenify
+  expect(@category.span_unidades.text).to eql category
 end

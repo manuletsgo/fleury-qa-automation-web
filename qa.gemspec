@@ -35,5 +35,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'solargraph'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'string-scrub'
 end
