@@ -54,7 +54,7 @@ Com o objetivo de ter um teste mais assertivo (levando em conta que a validaçã
 - Page Objects Model: utilizando poderes da orientação a objetos como abstração, encapsulamento e segmentação de responsabilidades, temos um ganho na organização e reaproveitamento de código nas páginas;
 - Site Prism: gem para melhorar a implementação do Page Objects Model;
 - Selenium Webdriver: gem que possibilita as interações através do chromedriver com o navegador;
-- Rsec: gem que possibilita usar asserções de forma mais intuitiva;
+- Rspec: gem que possibilita usar asserções de forma mais intuitiva;
 - CSS Selector: além de ter maior compatibilidade que o xpath nos navegadores, quando usado de forma correta, evita que alterações em outros elementos impactem no elemento mapeado.
 ---
 
